@@ -1,0 +1,117 @@
+.logo__header {
+  align-self: center;
+  width: 101px;
+  margin-bottom: 306px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.header__backgound {
+  width: 100%;
+  background: url(../img/bg@2x.png) center;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  padding-top: 41px;
+}
+.header__title {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 575px;
+  height: 72px;
+}
+.header__info {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 401px;
+  height: 22px;
+  margin-bottom: 221px;
+}
+.header__subtitle {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 15px;
+  color: #FFFFFF;
+  align-items: flex-end;
+  margin-bottom: 71px;
+}
+.header__navList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  width: 420px;
+}
+.header__items {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+}
+.header__nav {
+  position: sticky;
+  background: #fff;
+  color: #48555B;
+  border-bottom: 1px solid #E6E6E6;
+}
+.header__navLogo {
+  align-self: center;
+}
+.header__navblock {
+  display: flex;
+  justify-content: space-between;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+li {
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../../font/BebasNeue-Regular.woff2") format("woff2"), url("../../font/BebasNeue-Regular.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../../font/ofont.ru_Open-Sans.woff") format("woff"), url("../../font/ofont.ru_Open-Sans.woff2") format("woff2");
+  font-style: 700;
+  font-weight: normal;
+}/*# sourceMappingURL=style.css.map */
